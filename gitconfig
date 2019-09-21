@@ -11,7 +11,8 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+  editor="code -w"
+	askpass = git-gui--askpass
 
 [alias]
   co = checkout
@@ -49,3 +50,5 @@
 [user]
 	email = rayhan.wirjowerdojo@gmail.com
 	name = Rayhan Wirjowerdojo
+[credential]
+	helper = osxkeychain
