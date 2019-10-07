@@ -19,7 +19,7 @@ unalias rm # No interactive rm by default (brought by plugins/common-aliases)
 alias heroku_db="open https://dashboard.heroku.com/apps"
 alias mk="mkdir"
 alias cra="create-react-app"
-alias master="git checkout master"
+alias master="git switch master"
 
 # Load rbenv if installed
 export PATH="${HOME}/.rbenv/bin:${PATH}"
@@ -38,3 +38,6 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+
+# Flutter
+export PATH=$HOME/code/rayhanw/flutter/bin:$PATH
