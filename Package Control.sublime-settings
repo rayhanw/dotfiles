@@ -5,11 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"Babel",
+		"ChannelRepositoryTools",
+		"Dracula Color Scheme",
 		"Emmet",
-		"ERB Snippets",
 		"Git",
 		"GitGutter",
 		"Package Control",
@@ -19,6 +21,7 @@
 		"SCSS",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
-		"SublimeLinter-rubocop"
+		"SublimeLinter-rubocop",
+		"TypeScript"
 	]
 }
