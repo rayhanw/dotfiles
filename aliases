@@ -5,3 +5,11 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+# Custom aliases
+alias heroku_db="open https://dashboard.heroku.com/apps"
+alias mk="mkdir"
+alias master="git switch master"
+alias latest="git pull origin master"
+alias glg="git lg"
+alias kitt="open https://kitt.lewagon.com"
