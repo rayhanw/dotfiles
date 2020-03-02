@@ -1,6 +1,14 @@
+# frozen_string_literal: true
+
 begin
   require 'rubygems'
   require 'pry'
+
+  if ENV['RAILS_ENV']
+    require 'rails/console/app'
+
+    include Rails::ConsoleMethods
+  end
 rescue LoadError
 end
 
