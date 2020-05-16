@@ -15,12 +15,6 @@ export HOMEBREW_NO_ANALYTICS=1
 source "${ZSH}/oh-my-zsh.sh"
 unalias rm # No interactive rm by default (brought by plugins/common-aliases)
 
-# Custom aliases
-alias heroku_db="open https://dashboard.heroku.com/apps"
-alias mk="mkdir"
-alias cra="create-react-app"
-alias master="git switch master"
-
 # Load rbenv if installed
 export PATH="${HOME}/.rbenv/bin:${PATH}"
 type -a rbenv > /dev/null && eval "$(rbenv init -)"

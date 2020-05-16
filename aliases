@@ -12,6 +12,7 @@ alias mk="mkdir"
 alias master="git switch master"
 alias latest="git pull origin master"
 alias glg="git lg"
+alias master="git switch master"
 alias kitt="open https://kitt.lewagon.com"
 new_rails() {
   rails new $1 -d=postgresql -m=https://gist.githubusercontent.com/rayhanw/a520461a50a9381bf987514b5958df7f/raw/e56a4f48ec6a5638556b0f96cd625a16cbf2599a/rails-tailwind.rb
