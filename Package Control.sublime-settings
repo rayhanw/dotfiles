@@ -22,6 +22,9 @@
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-rubocop",
-		"TypeScript"
+		"TypeScript",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets",
+		"WakaTime"
 	]
 }
