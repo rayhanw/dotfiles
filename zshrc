@@ -25,7 +25,7 @@ type -a pyenv > /dev/null && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-
 
 # Load nvm if installed (To manage your Node versions)
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Rails and Ruby uses the local `bin` folder to store binstubs.
