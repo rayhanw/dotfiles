@@ -47,3 +47,15 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 
 # Flutter
 export PATH=$HOME/code/rayhanw/flutter/bin:$PATH
+
+# Spaceship Theme customization
+SPACESHIP_PROMPT_ORDER=(
+  dir           # Current directory section
+  git           # Git section (git_branch + git_status)
+  ruby          # Ruby section
+  node          # Node.js section
+  exec_time     # Execution time
+  char          # Prompt character
+)
+
+SPACESHIP_PROMPT_PREFIXES_SHOW=false
