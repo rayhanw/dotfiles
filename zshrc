@@ -54,7 +54,6 @@ SPACESHIP_PROMPT_ORDER=(
   git           # Git section (git_branch + git_status)
   ruby          # Ruby section
   node          # Node.js section
-  exec_time     # Execution time
   char          # Prompt character
 )
 
