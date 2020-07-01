@@ -17,7 +17,7 @@ alias glg="git lg"
 alias master="git switch master"
 alias kitt="open https://kitt.lewagon.com"
 new_rails() {
-  rails new $1 -d=postgresql -m=https://gist.githubusercontent.com/rayhanw/a520461a50a9381bf987514b5958df7f/raw/e56a4f48ec6a5638556b0f96cd625a16cbf2599a/rails-tailwind.rb
+  rails new $1 -d=postgresql -m=https://gist.githubusercontent.com/rayhanw/a520461a50a9381bf987514b5958df7f/raw/7121a25324240bfc509ea6f679e318ab5fbaa7ef/rails-tailwind.rb
 }
 alias up="docker-compose up"
 alias upb="docker-compose up --build"
