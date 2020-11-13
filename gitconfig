@@ -52,3 +52,5 @@
 	name = Rayhan Wirjowerdojo
 [credential]
 	helper = osxkeychain
+[pull]
+	rebase = false
