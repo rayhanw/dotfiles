@@ -48,3 +48,6 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 export PATH=$HOME/code/rayhanw/flutter/bin:$PATH
 
 eval $(thefuck --alias)
+
+# Starship theme init
+eval "$(starship init zsh)"
