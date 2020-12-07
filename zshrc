@@ -2,7 +2,6 @@ ZSH=$HOME/.oh-my-zsh
 
 # You can change the theme with another one:
 #   https://github.com/robbyrussell/oh-my-zsh/wiki/themes
-ZSH_THEME="spaceship"
 
 # Useful plugins for Rails development with Sublime Text
 plugins=(git last-working-dir common-aliases sublime zsh-syntax-highlighting zsh-autosuggestions history-substring-search)
@@ -47,17 +46,5 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 
 # Flutter
 export PATH=$HOME/code/rayhanw/flutter/bin:$PATH
-
-# Spaceship Theme customization
-SPACESHIP_PROMPT_ORDER=(
-  dir           # Current directory section
-  git           # Git section (git_branch + git_status)
-  ruby          # Ruby section
-  node          # Node.js section
-  char          # Prompt character
-)
-
-SPACESHIP_PROMPT_PREFIXES_SHOW=false
-SPACESHIP_DIR_TRUNC=1
 
 eval $(thefuck --alias)
