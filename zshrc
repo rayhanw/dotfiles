@@ -51,3 +51,4 @@ eval $(thefuck --alias)
 
 # Starship theme init
 eval "$(starship init zsh)"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
